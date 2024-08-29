@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Bootstrap demo</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+            crossorigin="anonymous"
+        />
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    </head>
+
+    <header id="home"></header>
+    
+     <link rel="stylesheet" href="bootstrap.css" />
+    <style></style>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light bg-white px-2 border-bottom fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand ms-5 pe-5" href="#"> <span class="text-warning fs-2 fw-bolder ">BUILD</span>
+                <span class="text-dark fs-2 fw-bolder">CON</span></a>  
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div
+                    class="collapse navbar-collapse "
+                    id="navbarSupportedContent"
+                >
+                    <ul class="navbar-nav mb-2 mb-lg-0 ms-auto text-center pe-5">
+                        <li class="nav-item">
+                            <a
+                                class="nav-link active fw-bolder"
+                                aria-current="page"
+                                href="#home"
+                                >HOME</a
+                            >
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link fw-bolder " href="#about">ABOUT</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a
+                                class="nav-link dropdown-toggle fw-bolder "
+                                href="#"
+                                id="navbarDropdown "
+                                role="button"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false"
+                            >
+                                SERVICES
+                            </a>
+                            <ul
+                                class="dropdown-menu"
+                                aria-labelledby="navbarDropdown"
+                            >
+                                <li>
+                                    <a class="dropdown-item" href="#services">Action</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#services"
+                                        >Another action</a
+                                    >
+                                </li>
+                                <li><hr class="dropdown-divider" /></li>
+                                <li>
+                                    <a class="dropdown-item" href="#services"
+                                        >Something else here</a
+                                    >
+                                </li>
+                            </ul>
+
+                             <li class="nav-item">
+     <a class="nav-link fw-bolder" href="#portfolio">PORTFOLIO</a>
+ </li>
+
+  <li class="nav-item">
+     <a class="nav-link fw-bolder" href="#team">TEAM</a>
+ </li>
+
+  <li class="nav-item">
+     <a class="nav-link fw-bolder" href="#contact">CONTACT</a>
+ </li>
+                </div>
+            </div>
+        </nav>
+
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?cs=srgb&dl=pexels-binyaminmellish-106399.jpg&fm=jpg" class="d-block w-100 " alt="..." style="height: 600px;"> 
+      </style>
+      <div class="carousel-caption d-none d-md-block ">
+        <h5>YOUR DREAM HOUSE</h5>
+        <p >Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Illo esse unde doloremque neque? </p>
+        <button type="button" class="btn btn-warning" >Learn More</button > 
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://ssl.cdn-redfin.com/photo/114/mbphoto/587/genMid.6458587_0.jpg" class="d-block w-100" alt="..." style="height: 600px;">
+      <div class="carousel-caption d-none d-md-block ">
+        <h5>ALWAYS DEDICATED</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Illo esse unde doloremque neque?</p>
+        <button type="button" class="btn btn-warning">Learn More</button>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://img.freepik.com/premium-photo/house-thailand-with-car-parked-front-it_859992-13.jpg?w=740" class="d-block w-100" alt="..." style="height: 600px;">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>TRUE CONSTRUCTION</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Illo esse unde doloremque neque?</p>
+        <button type="button" class="btn btn-warning ">Learn More</button>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<section class="about py-5 " id="about" style="background-color: rgb(227, 234, 239);">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-md-6 col-lg-6 col-12 pt-5">
+                <img src="https://images.pexels.com/photos/443383/pexels-photo-443383.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"  style="height: 380px; width: 85%">
+                 
+            </div>
+
+            <div class="col-sm-6 col-md-6 col-lg-6 col-12 pt-5 ">
+                <h3 >We Provide The Best Quality <br>Services Ever </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Fuga vitae cupiditate dignissimos alias dolores aut laudantium!
+                      Natus dolore nihil, at dicta nemo id porro quasi? 
+                      Sequi atque maiores repudiandae delectus?
+                       Natus dolore nihil, at dicta nemo id porro quasi? 
+                    </p>
+                <button type="button" class="btn btn-warning ">Learn More</button>
+
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="Services text-center py-5" id="services" style="background-color: rgb(227, 234, 239);">
+    <div class="container">
+        <div class="pb-5">
+        <h3 >Our Services</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Lorem, ipsum dolor sit amet </p>
+        </div>
+      
+      
+         <div class="row " >
+     <div class="col-sm-12 col-md-12 col-lg-4 pb-2  ">
+         <div class="card bg-dark text-white text-center ">
+             <div class="card-body">
+                <i class="bi bi-laptop fs-1 "></i>
+                
+            
+                 <h5 class="card-title fs-4">
+                     Best Quality
+                 </h5>
+                 <p class="card-text">
+                   Lorem ipsum dolor sit amet consectetur
+                 adipisicing elit. Earum sapiente,
+                 provident nulla nihil, ducimus
+                 voluptate ut minima ad culpa molestia  
+                                    
+                    
+                     
+                 </p>
+                 <a href="#" class="btn btn-warning"
+                     >Read More</a
+                 >
+             </div>
+         </div>
+     </div>
+
+      
+     <div class="col-sm-12 col-md-12 col-lg-4 pb-2">
+         <div class="card bg-dark text-white">
+             <div class="card-body">
+                <i class="bi bi-journal fs-1"></i>
+                 
+                
+                 <h5 class="card-title fs-4">
+                     Sustainability
+                 </h5>
+                 <p class="card-text">
+                     Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Earum sapiente,
+                    provident nulla nihil, ducimus
+                    voluptate ut minima ad culpa molestia
+                    
+                    
+                     
+                 </p>
+                 <a href="#" class="btn btn-warning"
+                     >Read More</a
+                 >
+             </div>
+         </div>
+     </div>
+
+
+      
+     <div class="col-sm-12 col-md-12 col-lg-4 pb-2">
+         <div class="card bg-dark text-white">
+             <div class="card-body">
+                <i class="bi bi-back fs-1"></i>
+                
+                 <h5 class="card-title fs-4">
+                     Integrity
+                 </h5>
+                 <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Earum sapiente,
+                    provident nulla nihil, ducimus
+                    voluptate ut minima ad culpa molestia
+                     
+                 </p>
+                 <a href="#" class="btn btn-warning"
+                     >Read More</a
+                 >
+             </div>
+         </div>
+     </div>
+
+         </div>
+    </div>
+</section>
+
+<section class="portfolio text-center py-5" id="portfolio" style="background-color: rgb(227, 234, 239);">
+    <div class="container">
+        <div class="pb-5">
+            <h3>Our Projects </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> 
+               Lorem ipsum dolor, sit amet 
+            </p>
+        </div>
+
+        <div class="row  ">
+            <div class="col-sm-12 col-md-12 col-lg-4 pb-5">
+                <div class="card  bg-white pt-3 ps-3 pe-3">
+  <img src="https://images.pexels.com/photos/1570404/pexels-photo-1570404.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title fs-3">Building Make</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.
+         Lorem ipsum dolor sit amet aspernatur .
+    </p>
+    <a href="#" class="btn btn-warning">Go somewhere</a>
+  </div>
+</div>
+            </div>
+
+         <div class="col-sm-12 col-md-12 col-lg-4 pb-5 ">
+            <div class="card bg-white pt-3 ps-3 pe-3" >
+  <img src="https://images.pexels.com/photos/2041556/pexels-photo-2041556.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title fs-3">Building Make</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.
+        Lorem ipsum dolor sit amet aspernatur .
+    </p>
+    <a href="#" class="btn btn-warning">Go somewhere</a>
+  </div>
+</div>
+         </div>   
+
+         <div class="col-sm-12 col-md-12 col-lg-4 pb-5">
+            <div class="card  bg-white pt-3 ps-3 pe-3" >
+  <img src="https://images.pexels.com/photos/1570404/pexels-photo-1570404.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title fs-3">Building Make</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.
+         Lorem ipsum dolor sit amet aspernatur .
+    </p>
+    <a href="#" class="btn btn-warning">Go somewhere</a>
+  </div>
+</div>
+         </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="our team text-center py-5" id="team" style="background-color: rgb(227, 234, 239);">
+    <div class="container">
+        <div class="pb-5">
+            <h3>Our Team</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
+            Lorem ipsum dolor, sit amet</p>
+        </div>
+
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-3 pb-5 ">
+                <div class="card pt-2 ">
+  <img src="c:\Users\Lenovo\OneDrive\Documents\Downloads\pexels-andrea-piacquadio-846741.jpg" class="card-img-top img-fluid rounded-circle  " alt="..."><!-- style="height: 130px; width: 40%;  margin-left: 85px;">-->
+  <div class="card-body">
+    <h5 class="card-title py-2 fs-3">Shain Watson</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <p class="social fs-5">
+        <i class="bi bi-twitter text-dark mx-1"></i>
+        <i class="bi bi-facebook text-dark mx-1"></i>
+        <i class="bi bi-linkedin text-dark mx-1"></i>
+        <i class="bi bi-instagram text-dark mx-1"></i>
+
+    </p>
+   
+  </div>
+</div>
+  </div>
+
+<div class="col-12 col-md-6 col-lg-3 pb-5">
+<div class="card pt-2">
+  <img src="https://www.shutterstock.com/image-photo/smiling-mature-man-wearing-spectacles-600nw-1432699253.jpg" class="card-img-top img-fluid rounded-circle  " alt="..."><!-- style="height: 130px; width: 40%; margin-left: 85px;">-->
+  <div class="card-body">
+    <h5 class="card-title py-2 fs-3">Devin Conway</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+     <p class="social fs-5">
+     <i class="bi bi-twitter text-dark mx-1"></i>
+     <i class="bi bi-facebook text-dark mx-1"></i>
+     <i class="bi bi-linkedin text-dark mx-1"></i>
+     <i class="bi bi-instagram text-dark mx-1"></i>
+ </p>
+  </div>
+</div>
+  </div>
+
+  <div class="col-12 col-md-6 col-lg-3 pb-5">
+<div class="card pt-2">
+  <img src="c:\Users\Lenovo\OneDrive\Documents\Downloads\pexels-daniel-xavier-1121796.jpg" class="card-img-top img-fluid rounded-circle" alt="..."><!-- style="height: 130px; width: 40%; margin-left: 85px;">-->
+  <div class="card-body">
+    <h5 class="card-title py-2 fs-3">Faf du Plessis</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <p class="social fs-5">
+     <i class="bi bi-twitter text-dark mx-1"></i>
+     <i class="bi bi-facebook text-dark mx-1"></i>
+     <i class="bi bi-linkedin text-dark mx-1"></i>
+     <i class="bi bi-instagram text-dark mx-1"></i>
+ </p>
+  </div>
+</div>
+  </div>
+
+  <div class="col-12 col-md-6 col-lg-3">
+    <div class="card pt-2">
+  <img src="https://img.freepik.com/free-photo/young-bearded-man-with-striped-shirt_273609-5677.jpg" class="card-img-top img-fluid rounded-circle" alt="..."><!-- style="height: 130px; width: 40%; margin-left: 85px;">-->
+  <div class="card-body">
+    <h5 class="card-title py-2 fs-3">Ron Jackson</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+           <p class="social fs-5">
+     <i class="bi bi-twitter text-dark mx-1"></i>
+     <i class="bi bi-facebook text-dark mx-1"></i>
+     <i class="bi bi-linkedin text-dark mx-1"></i>
+     <i class="bi bi-instagram text-dark mx-1"></i>
+ </p>
+  </div>
+</div>
+  </div>
+
+
+        </div>
+    </div>
+</section>
+
+<section class="contact  text-center py-5" id="contact" style="background-color: rgb(227, 234, 239);">
+    <div class="container">
+        <div class="pb-5">
+            <h3>Contact Us</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
+Lorem ipsum dolor, sit amet</p>
+        </div>
+
+        <div class="row" style="background-color: rgb(238, 236, 236); padding-top: 20px;">
+            <div class="col-md-12 ">
+
+<div class="form-floating mb-3">
+  <input type="Full name" class="form-control" id="floatingName" placeholder="fullname">
+  <label for="floatingName">Full Name</label>
+</div>
+
+
+<div class="form-floating mb-3">
+ <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+ <label for="floatingInput">Email</label>
+</div>
+
+<div class="form-floating mt-2 " >
+  <textarea class="form-control" style="padding-bottom: 90px;" placeholder="Leave a comment here" id="floatingTextarea"> </textarea>
+  <label for="floatingTextarea">Message</label>
+</div>
+
+<div class="d-grid gap-2 mt-5">
+  <button class="btn btn-warning" type="button">Send Now</button>
+</div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="bg-dark p-2 text-center">
+    <div class="container">
+        <p class="text-white">All Right Reserved @website Name</p>
+
+    </div>
+
+</footer>
+
+
+
+
+
+        <script></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
